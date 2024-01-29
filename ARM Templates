@@ -1,1 +1,3 @@
-<H1> ARM Templates</h1>
+When you're writing an ARM template, you need to understand all the parts that make up the template and what they do. ARM template files are made up of the following elements:
+
+schema	A required section that defines the location of the JSON schema file that describes the structure of JSON data. The version number you use depends on the scope of the deployment and your JSON editor.
