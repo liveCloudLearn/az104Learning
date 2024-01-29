@@ -9,8 +9,9 @@ variables	An optional section where you define values that are used to simplify 
 functions	An optional section where you can define user-defined functions that are available within the template. User-defined functions can simplify your template when complicated expressions are used repeatedly in your template.
 resources	A required section that defines the actual items you want to deploy or update in a resource group or a subscription.
 output	An optional section where you specify the values that will be returned at the end of the deployment.
-
----
+------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                      COMMANDS TO CREATE AZURE ARM TEMPLATE
+------------------------------------------------------------------------------------------------------------------------------------------------------
 Azure CLI  Command to create ARM Template 
 
 templateFile="{provide-the-path-to-the-template-file}"
@@ -18,7 +19,8 @@ az deployment group create \
   --name blanktemplate \
   --resource-group myResourceGroup \
   --template-file $templateFile
-
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Azure PowerShell  Command to create ARM Template 
 $templateFile = "{provide-the-path-to-the-template-file}"
@@ -27,7 +29,7 @@ New-AzResourceGroupDeployment `
   -ResourceGroupName myResourceGroup `
   -TemplateFile $templateFile
 
----
+------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Examples : 
 
