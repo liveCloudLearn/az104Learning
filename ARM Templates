@@ -57,3 +57,12 @@ Examples :
   ],
   "outputs": {}
 }
+
+
+
+To add a resource to your template, you'll need to know the resource provider and its types of resources.
+The syntax for this combination is in the form of {resource-provider}/{resource-type}. 
+For example, to add a storage account resource to your template, you'll need the Microsoft.Storage resource provider. One of the types for this provider is storageAccount. 
+So your resource type will be displayed as Microsoft.Storage/storageAccounts.
+
+
